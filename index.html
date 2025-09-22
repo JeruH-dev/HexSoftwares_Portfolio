@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gideon Efiakedoho - Web Developer</title>
+    <meta name="description"
+        content="Gideon -  Web developer & Forestry grad building thoughtful, performant websites and applications.">
+    <meta name="keywords" content="Gideon, Efiakedoho, Web Developer, Forestry Graduate, JavaScript, React, HTML, CSS">
+    <meta name="author" content="Gideon Efiakedoho">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-theme="dark">
+
+    <body data-theme="dark">
+        <div class="shell fade-up">
+            <header>
+                <div class="logo">
+                    <div class="brand-mark">GE</div>
+                    <div class="brand-text">
+                        <h1>Gideon Efiakedoho</h1>
+                        <p>Web Developer — Intern @ Hex Softwares</p>
+                    </div>
+                </div>
+
+
+                <div class="controls">
+                    <button class="btn" id="download-resume" src="G E Resume.pdf">Download Resume</button>
+                    <div class="switch">
+                        <label class="row" title="Toggle theme">
+                            <input type="checkbox" id="theme-toggle">
+                            <div class="toggle">
+                                <div class="knob"></div>
+                            </div>
+                            <span class="hide-mobile muted">Dark / Light</span>
+                        </label>
+                    </div>
+                    <button class="btn" id="contact-me">Contact</button>
+                </div>
+            </header>
+            <main>
+                <section class="intro">
+                    <div class="hero card">
+                        <div class="avatar">
+                            <img src="Profile img 1.jpeg" alt="Profile picture of Gideon" width="120px" />
+                        </div>
+                        <div class="intro">
+                            <h2>Hi I’m <span class="type" id="typing-name">Gideon Efiakedoho</span></h2>
+                            <p class="tagline"> A passionate web developer and forestry graduate dedicated to crafting
+                                thoughtful and
+                                performant websites and applications. With a strong foundation in both technology and
+                                environmental science, I bring a unique perspective to my work, blending creativity with
+                                technical expertise.
+                            </p>
+                            <div class="meta">
+                                <div class="chip">Intern @ Hex Softwares</div>
+                                <div class="chip">Paritie Innovation Hub</div>
+                                <div class="chip">Available for freelance</div>
+                                <div class="chip">Based in Niger, NG</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div style="margin-top:12px">
+                    <span class="muted">Current focus:</span>
+                    <div class="typing" id="typing">• JavaScript • React • Tailwind • Bootstrap • Node.js • Performance
+                    </div>
+                </div>
+
+                <div class="card section" style="margin-top:14px">
+                    <h3>About Me</h3>
+                    <p class="muted">I studied Forestry & Wildlife and pivoted into web development. My work sits where
+                        pragmatic engineering meets clean design. I care about performance, maintainable code, and
+                        leaving
+                        something better than I found it.</p>
+                    <p class="muted">When I'm not coding, you might find me hiking, reading sci-fi, or experimenting
+                        with new recipes in the kitchen.
+                    </p>
+                    <h4>Skills</h4>
+                    <div class="skills">
+                        <div class="skill">HTML5</div>
+                        <div class="skill">CSS3</div>
+                        <div class="skill">JavaScript</div>
+                        <div class="skill">Vanilla JS</div>
+                        <div class="skill">Responsive Design</div>
+                        <div class="skill">Git & GitHub</div>
+                        <div class="skill">Basic Node</div>
+                    </div>
+                </div>
+
+                <div class="card section">
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                        <h3>Projects</h3>
+                        <div>
+                            <button class="btn" data-filter="all">All</button>
+                            <button class="btn" data-filter="web">Web</button>
+                            <button class="btn" data-filter="ui">UI</button>
+                        </div>
+                    </div>
+
+                    <div class="projects-grid" id="projects">
+                        <!-- Project 1 -->
+                        <article class="proj" data-tags="web" data-demo="#" data-source="#">
+                            <h4>Hex Softwares Landing Page</h4>
+                            <p>Responsive landing page built for Hex Softwares internship onboarding. Focused on
+                                semantic HTML
+                                and accessibility.</p>
+                            <div class="tags"><span>HTML</span><span>CSS</span><span>Performance</span></div>
+                        </article>
+
+
+                        <!-- Project 2 -->
+                        <article class="proj" data-tags="web" data-demo="#" data-source="#">
+                            <h4>ForestWatch — Conservation Blog</h4>
+                            <p>Small CMS-style site for conservation updates. Lightweight, markdown-driven templates and
+                                clean
+                                reading experience.</p>
+                            <div class="tags"><span>Static</span><span>Accessibility</span></div>
+                        </article>
+
+
+                        <!-- Project 3 -->
+                        <article class="proj" data-tags="ui" data-demo="#" data-source="#">
+                            <h4>Interactive Data Cards</h4>
+                            <p>UI kit of animated, accessible data cards for dashboards — micro-interactions and
+                                keyboard-friendly controls.</p>
+                            <div class="tags"><span>JS</span><span>UX</span></div>
+                        </article>
+
+                        <!-- Project 4 -->
+                        <article class="proj" data-tags="web" data-demo="#" data-source="#">
+                            <h4>Portfolio Prototype (this)</h4>
+                            <p>This lightweight single-file portfolio — responsive, with theme toggle and project modal.
+                                Pure
+                                HTML/CSS/JS.</p>
+                            <div class="tags"><span>Vanilla JS</span><span>Responsive</span></div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="card section">
+                    <div>
+                        <h3>Experience</h3>
+                        <div>
+                            <p class="muted"><b>Intern — Hex Softwares (2025)</b> <br>— Working on frontend features,
+                                performance
+                                audits,
+                                and accessibility improvements. Previously engaged with grassroots conservation
+                                projects;
+                                those
+                                systems-thinking skills inform my approach.
+                            </p>
+                        </div>
+                        <div>
+                            <h3></h3>
+                            <p class="muted"><b>Intern — Paritie Innovation Hub, Minna (2025)</b> <br>— Collaborate with senior
+                                developers to build and maintain responsive web
+                                applications. Implement new features and UI components, improving user engagement and
+                                reducing load times. Participate in code reviews and contribute to best practices</p>
+                        </div>
+                        <div>
+                            <p class="muted"><b>Volunteer Web Dev</b> <br>— Green Earth Initiative (2024) — Built and
+                                maintained a
+                                small
+                                website for a local environmental NGO, focusing on user-friendly design and clear
+                                information
+                                architecture.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right / Sidebar -->
+                <aside>
+                    <div class="sidebar-top card">
+                        <h3>Quick Contact</h3>
+                        <p class="muted">Want to collaborate? Tell me about the project (briefly) and I’ll get back to
+                            you.</p>
+
+                        <form id="contact-form" action="https://formspree.io/f/mblanybz" method="POST">
+                            <input type="text" name="name" placeholder="Your Name:" required />
+                            <input type="email" name="email" placeholder="Email:" required />
+                            <textarea name="message" placeholder="Tell me about the project...!"></textarea>
+                            <div>
+                                <button class="btn" type="submit">Send</button>
+                                <button class="btn" type="button" id="clear-form">Clear</button>
+                            </div>
+                            <p class="muted" style="margin-top:6px">Or email:
+                                <strong>efiakedohogideon@gmail.com</strong>
+                            </p>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h4>Skills Visual</h4>
+                        <p class="muted">A tiny, playful forest-inspired progress visualization to add personality.</p>
+                        <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">
+                            <div style="flex:1;min-width:120px">
+                                <div class="muted">HTML</div>
+                                <div
+                                    style="height:8px;background:rgba(255,255,255,0.03);border-radius:999px;margin-top:6px;overflow:hidden">
+                                    <div
+                                        style="width:95%;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));">
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="flex:1;min-width:120px">
+                                <div class="muted">CSS</div>
+                                <div
+                                    style="height:8px;background:rgba(255,255,255,0.03);border-radius:999px;margin-top:6px;overflow:hidden">
+                                    <div
+                                        style="width:88%;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));">
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="flex:1;min-width:120px">
+                                <div class="muted">JS</div>
+                                <div
+                                    style="height:8px;background:rgba(255,255,255,0.03);border-radius:999px;margin-top:6px;overflow:hidden">
+                                    <div
+                                        style="width:74%;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent-2));">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <h4>Socials:</h4>
+                                <p class="muted">Feel free to connect with me on these platforms.</p>
+                                <div style="display:flex;gap:8px;margin-top:8px">
+                                    <a class="btn" href="https://github.com/JeruH-dev">GitHub</a>
+                                    <a class="btn"
+                                        href="https://www.linkedin.com/in/gideon-efiakedoho-978493279/">LinkedIn</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </main>
+
+        </div>
+
+        <footer>
+            <!-- Project modal (hidden) -->
+            <div class="modal" id="modal">
+                <div class="panel">
+                    <p>Built with 💚 by Gideon • &copy; <span id="year">2025</span></p>
+                    <div style="display:flex;justify-content:space-between;align-items:center">
+                        <h3 id="modal-title">Project</h3>
+                        <div style="display:flex;gap:8px"><a id="modal-demo" class="btn" href="#"
+                                target="_blank">Live</a><a id="modal-src" class="btn" href="#"
+                                target="_blank">Source</a></div>
+                    </div>
+                    <p id="modal-desc" class="muted" style="margin-top:10px"></p>
+                    <div style="margin-top:12px;text-align:right"><button class="btn" id="close-modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="Script.js" defer></script>
+
+    </body>
+
+</html>
