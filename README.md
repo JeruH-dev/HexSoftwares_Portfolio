@@ -19,6 +19,9 @@ A personal portfolio website built in pure HTML, CSS, and JavaScript, showcasing
 ---
 
 ## 📸 Screenshot
+<img width="1917" height="967" alt="dark-them-image" src="https://github.com/user-attachments/assets/5f7d7dd3-2b0b-44f5-8add-af35bb6342f9" />
+
+<img width="1914" height="979" alt="light-theme-image" src="https://github.com/user-attachments/assets/4474bcbb-6aeb-4863-a9b5-ef38c0a10998" />
 
 ---
 
