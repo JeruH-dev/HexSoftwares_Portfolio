@@ -5,7 +5,7 @@
   --btn: #060a0f;
   --muted: #9aa4b2;
   --muted-2:#aac59beb;
-  --accent: #7ee787; /* leaf green accent */
+  --accent: #31a73b; /* leaf green accent */
   --accent-2: #7cc7ff;
   --glass: rgba(255, 255, 255, 0.06);
   --radius: 12px;
@@ -21,7 +21,7 @@
   --btn: #e0f2fe;
   --muted: #010a04;
   --muted-2:#016630c0;
-  --accent: #16a34a; /* leaf green accent */
+  --accent: #0ca220; /* leaf green accent */
   --accent-2: #1e6ded;
   --glass: rgba(30, 71, 39, 0.379);
 }
@@ -103,7 +103,7 @@ header {
 .brand-text h1 {
   color: var(--accent);
   margin: 0;
-  font-size: 36px;
+  font-size: 32px;
   font-family: var(--sans);
   font-weight: 600;
 }
@@ -164,7 +164,7 @@ header {
 
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 900px) {
   .main {
     grid-template-columns: 1fr;
   }
@@ -172,7 +172,7 @@ header {
     display: none;
   }
     .controls {
-        display: none;
+        display: grid;
     }
     .intro .type {
         max-width: 100vw;
@@ -190,8 +190,11 @@ header {
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.03);
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 18px;
   align-items: center;
+  align-content: center;
   padding: 18px;
   box-shadow: 0 6px 18px rgba(2,6,23,0.6);
   backdrop-filter: blur(6px);
@@ -220,17 +223,18 @@ header {
 }
 
 .intro {
-  flex: 1;
+  flex: 5px;
 }
 
 .intro h2 {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .intro p.tagline {
   margin: 6px 0;
   color: var(--muted);
+  justify-content: center;
 }
 
 .type, .typing {
@@ -272,7 +276,7 @@ header {
 }
 
 .section {
-    margin-top: 18px;
+    margin-top:18px;
 }
 
 .skills {

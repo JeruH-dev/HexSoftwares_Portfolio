@@ -38,7 +38,8 @@ function clearTyping() {
     const node = document.getElementById('typing');
     node.textContent = '';
 }
-const roles = ["Gideon Efiakedoho", "a Web developer", "a Forestry & WIldlife graduate", "an Intern @ Hex Softwares"];
+// ===== Alternate typing effect (Inconvenient to use on mobile) ===== //
+/*const roles = ["Gideon Efiakedoho", "a Web developer", /*"a Forestry & WIldlife graduate", "an Intern @ Hex Softwares"];
 const typingElement = document.getElementById("typing-name");
 const phrases = ['Gideon Efiakedoho', 'a Web developer', 'a Forestry & WIldlife graduate'];
 let roleIndex = 0;
@@ -65,7 +66,7 @@ function typeCycle() {
         }
     }
     setTimeout(typeCycle, isDeleting ? 80 : 50);
-}
+}*/
 document.addEventListener("DOMContentLoaded", typeCycle);
 
 // ===== Theme toggle ===== //
