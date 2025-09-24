@@ -38,6 +38,8 @@ function clearTyping() {
     const node = document.getElementById('typing');
     node.textContent = '';
 }
+
+// ===== Alternate typing effect (uncomment to use) ===== //
 /*const roles = ["Gideon Efiakedoho", "a Web developer", /*"a Forestry & WIldlife graduate", "an Intern @ Hex Softwares"];
 const typingElement = document.getElementById("typing-name");
 const phrases = ['Gideon Efiakedoho', 'a Web developer', 'a Forestry & WIldlife graduate'];
@@ -64,9 +66,9 @@ function typeCycle() {
             return;
         }
     }
-    setTimeout(typeCycle, isDeleting ? 80 : 50);
-}*/
-document.addEventListener("DOMContentLoaded", typeCycle);
+    setTimeout(typeCycle, isDeleting ? 50 : 50);
+}
+document.addEventListener("DOMContentLoaded", typeCycle);*/
 
 // ===== Theme toggle ===== //
 const themeToggle = el('#theme-toggle');
