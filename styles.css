@@ -294,7 +294,7 @@ header {
     padding: 8px 10px;
     border-radius: 8px;
     background: linear-gradient(80deg, rgba(255,255,255,0.1), transparent 40%);
-    border: 1px solid rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--muted)/*rgba(225, 206, 206, 0.03)*/;
     font-size: 12px;
 }
 
