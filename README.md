@@ -14,7 +14,7 @@ A personal portfolio website built in pure HTML, CSS, and JavaScript, showcasing
 ## 🛠️ Tech Stack
 - **HTML5**
 - **CSS3** (Flexbox, media queries, custom variables)
-- **Vanilla JavaScript** (for typing animation + hamburger toggle)
+- **Vanilla JavaScript** (for typing animation + dark/light theme toggle)
 
 ---
 
