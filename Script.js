@@ -53,7 +53,7 @@ el('#theme-toggle')?.addEventListener('change', (e) => {
 
 // ===== Resume download ===== //
 el('#download-resume')?.addEventListener('click', () => {
-    window.open('G E Resume.pdf', '_blank');
+    window.open('G E Resume...Updated.pdf', '_blank');
 });
 
 // ===== Contact quick button ===== //
